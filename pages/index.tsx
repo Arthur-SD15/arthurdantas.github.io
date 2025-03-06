@@ -1,4 +1,4 @@
-import { ButtonTheme } from "./components/ButtonTheme";
+import ButtonTheme from "@/components/ButtonTheme";
 
 interface Link {
   id: number;
@@ -11,7 +11,6 @@ interface HomeProps {
 }
 
 export default function Home({ links }: HomeProps) {
-  
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-blue-50 to-blue-100 dark:from-gray-800 dark:to-gray-900 p-8 font-[family-name:var(--font-geist-sans)]">
